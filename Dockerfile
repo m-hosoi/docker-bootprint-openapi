@@ -1,3 +1,3 @@
-FROM node:6.12.0-alpine
+FROM node:12.14.0-alpine3.11
 
-RUN yarn add bootprint bootprint-openapi
+RUN npm install -g bootprint bootprint-openapi
